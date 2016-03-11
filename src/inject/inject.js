@@ -32,7 +32,6 @@ $(function () {
                         try
                         {
                             if (mutations[i].addedNodes[j].className.toString().indexOf("fbNub _50-v _50mz _50m_ _5238") > -1) {
-                                console.log($('div#crypto'));
                                 if (!$(mutations[i].addedNodes[j]).find('span#crypto').length){
                                     $(mutations[i].addedNodes[j]).find('div._552n').append("<span class=\"_6gd _5ep3\" id=\"crypto\" style=\"background:url(https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/102-16.png) no-repeat 30% 30%;\">&nbsp;</span>");
                                 }
